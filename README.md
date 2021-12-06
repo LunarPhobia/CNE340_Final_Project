@@ -3,6 +3,5 @@
 
 API Used: https://www.balldontlie.io/#getting-started
 
-This project scrapes NBA player data from an API and loads it into Python.
-A SQL server table is then created using data.
-Data analysis then performed using Pandas Python module.
+This project scrapes NBA player data from an API and uploads the data into a SQL server.
+Using Pandas Python module, data from SQL table is analyzed.
