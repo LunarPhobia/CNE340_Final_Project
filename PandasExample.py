@@ -23,7 +23,7 @@ r = response.json()["data"]
 data = pandas.json_normalize(r)
 print(data)
 
-# Make Pandas DataFrame table
+# Make bargraph with matplotlib
 
 df = pandas.DataFrame(data)[['team.name', 'id']]
 fig, ax = plt.subplots()
